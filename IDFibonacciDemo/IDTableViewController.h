@@ -1,5 +1,5 @@
 //
-//  IDTableViewController.h
+//  IDTableViewController2.h
 //  IDFibonacciDemo
 //
 //  Created by Igor Dorofix on 10.11.15.

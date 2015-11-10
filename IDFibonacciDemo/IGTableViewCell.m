@@ -11,7 +11,8 @@
 @implementation IGTableViewCell
 
 - (void)prepareForReuse{
-    self.imageView.image = nil;
+    self.currentRow = -1;
+    self.detailTextLabel.text = @"_";
 }
 
 @end

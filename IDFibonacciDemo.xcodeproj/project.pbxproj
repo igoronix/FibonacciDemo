@@ -13,12 +13,13 @@
 		7875610F1BF20F9200E4BB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7875610D1BF20F9200E4BB8A /* Main.storyboard */; };
 		787561111BF20F9200E4BB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787561101BF20F9200E4BB8A /* Assets.xcassets */; };
 		787561141BF20F9200E4BB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787561121BF20F9200E4BB8A /* LaunchScreen.storyboard */; };
-		7875611D1BF2170C00E4BB8A /* IDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875611C1BF2170C00E4BB8A /* IDTableViewController.m */; };
+		7875611D1BF2170C00E4BB8A /* IDTableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875611C1BF2170C00E4BB8A /* IDTableViewController2.m */; };
 		7875612B1BF22A1400E4BB8A /* IGGitHubIdenticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 787561221BF22A1400E4BB8A /* IGGitHubIdenticon.m */; };
 		7875612C1BF22A1400E4BB8A /* IGHashFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 787561241BF22A1400E4BB8A /* IGHashFunctions.m */; };
 		7875612D1BF22A1400E4BB8A /* IGImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 787561271BF22A1400E4BB8A /* IGImageGenerator.m */; };
 		7875612E1BF22A1400E4BB8A /* IGSimpleIdenticon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875612A1BF22A1400E4BB8A /* IGSimpleIdenticon.m */; };
 		787561311BF231E200E4BB8A /* IGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 787561301BF231E200E4BB8A /* IGTableViewCell.m */; };
+		787561341BF29AEB00E4BB8A /* IDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787561331BF29AEB00E4BB8A /* IDTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +33,8 @@
 		787561101BF20F9200E4BB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		787561131BF20F9200E4BB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		787561151BF20F9200E4BB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7875611B1BF2170C00E4BB8A /* IDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTableViewController.h; sourceTree = "<group>"; };
-		7875611C1BF2170C00E4BB8A /* IDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTableViewController.m; sourceTree = "<group>"; };
+		7875611B1BF2170C00E4BB8A /* IDTableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTableViewController2.h; sourceTree = "<group>"; };
+		7875611C1BF2170C00E4BB8A /* IDTableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTableViewController2.m; sourceTree = "<group>"; };
 		787561211BF22A1400E4BB8A /* IGGitHubIdenticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGGitHubIdenticon.h; path = IGIdenticon/IGGitHubIdenticon.h; sourceTree = "<group>"; };
 		787561221BF22A1400E4BB8A /* IGGitHubIdenticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGGitHubIdenticon.m; path = IGIdenticon/IGGitHubIdenticon.m; sourceTree = "<group>"; };
 		787561231BF22A1400E4BB8A /* IGHashFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGHashFunctions.h; path = IGIdenticon/IGHashFunctions.h; sourceTree = "<group>"; };
@@ -46,6 +47,8 @@
 		7875612A1BF22A1400E4BB8A /* IGSimpleIdenticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGSimpleIdenticon.m; path = IGIdenticon/IGSimpleIdenticon.m; sourceTree = "<group>"; };
 		7875612F1BF231E200E4BB8A /* IGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTableViewCell.h; sourceTree = "<group>"; };
 		787561301BF231E200E4BB8A /* IGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTableViewCell.m; sourceTree = "<group>"; };
+		787561321BF29AEB00E4BB8A /* IDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTableViewController.h; sourceTree = "<group>"; };
+		787561331BF29AEB00E4BB8A /* IDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +88,10 @@
 				7875610B1BF20F9200E4BB8A /* ViewController.m */,
 				7875612F1BF231E200E4BB8A /* IGTableViewCell.h */,
 				787561301BF231E200E4BB8A /* IGTableViewCell.m */,
-				7875611B1BF2170C00E4BB8A /* IDTableViewController.h */,
-				7875611C1BF2170C00E4BB8A /* IDTableViewController.m */,
+				7875611B1BF2170C00E4BB8A /* IDTableViewController2.h */,
+				7875611C1BF2170C00E4BB8A /* IDTableViewController2.m */,
+				787561321BF29AEB00E4BB8A /* IDTableViewController.h */,
+				787561331BF29AEB00E4BB8A /* IDTableViewController.m */,
 				7875610D1BF20F9200E4BB8A /* Main.storyboard */,
 				787561101BF20F9200E4BB8A /* Assets.xcassets */,
 				787561121BF20F9200E4BB8A /* LaunchScreen.storyboard */,
@@ -196,9 +201,10 @@
 				787561311BF231E200E4BB8A /* IGTableViewCell.m in Sources */,
 				787561091BF20F9200E4BB8A /* AppDelegate.m in Sources */,
 				7875612C1BF22A1400E4BB8A /* IGHashFunctions.m in Sources */,
+				787561341BF29AEB00E4BB8A /* IDTableViewController.m in Sources */,
 				7875612D1BF22A1400E4BB8A /* IGImageGenerator.m in Sources */,
 				7875612E1BF22A1400E4BB8A /* IGSimpleIdenticon.m in Sources */,
-				7875611D1BF2170C00E4BB8A /* IDTableViewController.m in Sources */,
+				7875611D1BF2170C00E4BB8A /* IDTableViewController2.m in Sources */,
 				787561061BF20F9200E4BB8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +354,7 @@
 				7875611A1BF20F9200E4BB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

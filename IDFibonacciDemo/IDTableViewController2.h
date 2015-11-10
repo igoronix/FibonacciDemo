@@ -1,5 +1,5 @@
 //
-//  IGTableViewCell.h
+//  IDTableViewController.h
 //  IDFibonacciDemo
 //
 //  Created by Igor Dorofix on 10.11.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IGTableViewCell : UITableViewCell
-
-@property (nonatomic) NSInteger currentRow;
+@interface IDTableViewController2 : UITableViewController
 
 @end
