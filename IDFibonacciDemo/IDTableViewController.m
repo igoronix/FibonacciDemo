@@ -62,6 +62,8 @@
     return cell;
 }
 
+#pragma mark - <UITableViewDelegate>
+
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = indexPath.row;
     

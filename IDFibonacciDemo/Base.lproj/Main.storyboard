@@ -17,25 +17,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iD-y8-IyK">
-                                <rect key="frame" x="121" y="209" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iD-y8-IyK">
+                                <rect key="frame" x="250" y="109" width="100" height="44"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.2274509804" green="0.70980392160000005" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KN0-S2-6ow"/>
+                                    <constraint firstAttribute="width" constant="100" id="S5G-ms-RWu"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Start 1"/>
                                 <connections>
                                     <segue destination="aYd-ml-rch" kind="show" id="Fwm-Ww-Lve"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmZ-Jy-JQ0">
-                                <rect key="frame" x="115" y="89" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmZ-Jy-JQ0">
+                                <rect key="frame" x="250" y="295" width="100" height="44"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4OY-L5-p4B"/>
+                                    <constraint firstAttribute="height" constant="44" id="QOs-yh-3sI"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Start 2"/>
                                 <connections>
                                     <segue destination="zo2-10-onZ" kind="show" id="uin-uJ-RS1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate every fibonacci before drawing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICQ-Sx-mLK">
+                                <rect key="frame" x="145" y="339" width="310" height="68"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="asv-FG-XFA"/>
+                                    <constraint firstAttribute="width" constant="310" id="frA-Wg-Rx6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate all Fibonacci and then draw" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcD-sh-o6P">
+                                <rect key="frame" x="145" y="153" width="310" height="68"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="BLI-6A-mCM"/>
+                                    <constraint firstAttribute="height" constant="68" id="RVE-Vq-oio"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ICQ-Sx-mLK" firstAttribute="top" secondItem="xmZ-Jy-JQ0" secondAttribute="bottom" id="1PU-ww-6qo"/>
+                            <constraint firstItem="HcD-sh-o6P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2FX-aB-F7Y"/>
+                            <constraint firstItem="xmZ-Jy-JQ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="92x-R9-Dt0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xmZ-Jy-JQ0" secondAttribute="bottom" constant="350" id="SRH-1A-2hQ"/>
+                            <constraint firstItem="7iD-y8-IyK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="TpG-en-XUU"/>
+                            <constraint firstItem="7iD-y8-IyK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i5n-KG-CNY"/>
+                            <constraint firstItem="ICQ-Sx-mLK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s53-Cg-HBC"/>
+                            <constraint firstItem="HcD-sh-o6P" firstAttribute="top" secondItem="7iD-y8-IyK" secondAttribute="bottom" id="sy8-ic-EHe"/>
+                            <constraint firstItem="xmZ-Jy-JQ0" firstAttribute="top" secondItem="7iD-y8-IyK" secondAttribute="bottom" constant="142" id="xtG-fE-3Mi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SRH-1A-2hQ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Sfs-4k-eLy"/>
                 </viewController>
